@@ -5,6 +5,11 @@ body .container {
   background-color: #eef0f2;
   width: 75%;
 }
+body .container .simage {
+  width: 1200px;
+  height: 700px;
+  overflow: hidden;
+}
 body .container h3 {
   color: #114b5f;
 }

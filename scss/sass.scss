@@ -7,6 +7,11 @@ body {
     .container {
         background-color: $container;
         width: 75%;
+        .simage {
+            width: 1200px;
+            height:700px;
+            overflow:hidden;
+        }
         h3 {
             color: $backgroundColor;
         }
