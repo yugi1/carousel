@@ -1,0 +1,14 @@
+$fontColor: #eef0f2;
+$backgroundColor: #114b5f;
+$midTone: #03b5aa;
+$container: #eef0f2;
+body {
+    background-color: $backgroundColor;
+    .container {
+        background-color: $container;
+        width: 75%;
+        h3 {
+            color: $backgroundColor;
+        }
+    }
+}
