@@ -5,13 +5,27 @@ body .container {
   background-color: #eef0f2;
   width: 75%;
 }
+body .container .row {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+body .container .row .card {
+  margin: 19px;
+}
 body .container .simage {
   width: 1200px;
   height: 700px;
   overflow: hidden;
 }
+body .container .cards {
+  width: 287px;
+  height: 200px;
+  overflow: hidden;
+}
 body .container h3 {
   color: #114b5f;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=sass.css.map */

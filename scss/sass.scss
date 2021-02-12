@@ -7,13 +7,27 @@ body {
     .container {
         background-color: $container;
         width: 75%;
+        .row {
+            display: flex;
+            justify-content: center;
+            padding: 80px;
+            .card {
+                margin: 19px;
+            }
+        }
         .simage {
             width: 1200px;
             height:700px;
             overflow:hidden;
         }
+        .cards {
+            width: 287px;
+            height:200px;
+            overflow:hidden;
+        }
         h3 {
             color: $backgroundColor;
+            padding: 20px;
         }
     }
 }
